@@ -35,7 +35,7 @@ export const Weather = ({city}) => {
 
       } catch (err) {
           console.error(err)
-          setError("City not found"); 
+          setError("Sorry ! City not found"); 
         
       } finally {
         setLoading(false);
@@ -47,7 +47,7 @@ export const Weather = ({city}) => {
   if (city === "") return <Page message={"Search your place know the weather."}/>
 
   if (loading) return <div className="p-5">Loading...</div>;
-  if (error) return <Page message={"Sorry ! The place searched doesn't exist"} />; 
+  if (error) return <Page message={error} />; 
   if (!weatherData) return <div className="p-5">No weather data available.</div>; 
 
   const iconCode = weatherData.weather[0].icon;
@@ -81,9 +81,12 @@ export const Weather = ({city}) => {
 
 
   return (
-    <div className="grid grid-cols-3 md:grid-cols-5 grid-rows-6 md:grid-rows-5 gap-4 min-h-[90vh] lg:p-8 p-3  ">
+    <div className="grid grid-cols-3 md:grid-cols-5 grid-rows-6 md:grid-rows-5 gap-4 min-h-[90vh] lg:p-8 p-3 bg-right"
+      style={{ backgroundImage: `url(${iconUrl})`, backgroundSize: "80%", backgroundPositionX:"right", backgroundRepeat:"no-repeat"
+  }}>
 
-      <div className=" rounded-lg p-4 col-span-3 md:col-span-3 row-span-2 md:row-span-3 shadow-xl shadow-gray-600 flex flex-col justify-evenly"  style={{backgroundImage: `url(${bgImage || "/fallback.jpg"})`,
+      <div className=" rounded-lg p-4 col-span-3 md:col-span-3 row-span-2 md:row-span-3 shadow-xl shadow-gray-600 flex flex-col justify-evenly"
+        style={{backgroundImage: `url(${bgImage || "/fallback.jpg"})`,
         backgroundSize: "cover",
         backgroundPosition: "center"}}>
         
