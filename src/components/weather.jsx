@@ -5,6 +5,7 @@ import Sunrise from "../assets/rise.png"
 import Sunset from "../assets/sun.png"
 import {Page} from "./error";
 import { Icon } from "@iconify/react";
+import fallback from "../assets/weather.jpg"
 
 
 export const Weather = ({city}) => {
@@ -86,7 +87,7 @@ export const Weather = ({city}) => {
   }}>
 
       <div className=" rounded-lg p-4 col-span-3 md:col-span-3 row-span-2 md:row-span-3 shadow-xl shadow-gray-600 flex flex-col justify-evenly"
-        style={{backgroundImage: `url(${bgImage || "/fallback.jpg"})`,
+        style={{backgroundImage: `url(${bgImage || fallback})`,
         backgroundSize: "cover",
         backgroundPosition: "center"}}>
         
