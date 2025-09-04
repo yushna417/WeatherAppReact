@@ -44,7 +44,7 @@ export const Weather = ({city}) => {
     fetchdata();
   }, [city, unit]);
 
-  if (city === "") return <Page message={"Search your place know the weather."}/>
+  if (city === "") return <Page message={"Search your place to know the weather."}/>
 
   if (loading) return <div className="p-5">Loading...</div>;
   if (error) return <Page message={error} />; 
