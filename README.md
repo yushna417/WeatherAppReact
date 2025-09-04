@@ -44,31 +44,34 @@ npm run dev
 * **@tailwindcss/vite** (^4.0.14) – Tailwind integration for Vite
 
 ## 👜Project Structure
-|-- public
-|   |-- vite.svg
-|-- src
-|   |-- assets
-|   |   |-- react.svg
-|   |   |-- rise.png
-|   |   |-- sun.png
-|   |   |-- weather.jpg
-|   |   |-- weather.png
-|   |-- components
-|   |   |-- error.jsx
-|   |   |-- navbar.jsx
-|   |   |-- weather.jsx
-|   |-- App.jsx
-|   |-- index.css
-|   |-- main.jsx
-|-- .env
-|-- .gitignore
-|-- eslint.config.js
-|-- index.html
-|-- package-lock.json
-|-- package.json
-|-- README.md
-|-- tailwind.config.js
-|-- vite.config.js
+```
+├── public/
+│   ├── vite.svg
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── react.svg
+│   │   ├── rise.png
+│   │   ├── sun.png
+│   │   ├── weather.jpg
+│   │   └── weather.png
+│   ├── components/
+│   │   ├── error.jsx
+│   │   ├── navbar.jsx
+│   │   └── weather.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+```
 
 ## 🧪 Test the WeatherApp
 link : https://yushna417.github.io/WeatherAppReact/
