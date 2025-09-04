@@ -2,6 +2,9 @@
 
 ## 🎴(React + Vite + Tailwind)
 
+## Project Description
+Project Description:
+A responsive Weather Dashboard Web App that allows users to search for any city worldwide to view current weather conditions, including temperature, humidity, wind, and weather icons. It dynamically updates the background using the Unsplash API and provides a unit toggle between Celsius, Fahrenheit, and Kelvin for a user-friendly experience.
 ---
 
 ## 🚀 Getting Started
