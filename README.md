@@ -2,11 +2,15 @@
 
 ## 🎴(React + Vite + Tailwind)
 
+## Project Description
+A responsive Weather Dashboard Web App that allows users to search for any city worldwide to view current weather conditions, including temperature, humidity, wind, and weather icons. It dynamically updates the background using the Unsplash API and provides a unit toggle between Celsius, Fahrenheit, and Kelvin for a user-friendly experience.
+
 ---
 
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally:
+
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -42,6 +46,36 @@ npm run dev
 * **unsplash-js** (^7.0.19) – Unsplash API client
 * **tailwindcss** (^4.0.14) – Utility-first CSS framework
 * **@tailwindcss/vite** (^4.0.14) – Tailwind integration for Vite
+
+## 👜Project Structure
+```
+├── public/
+│   ├── vite.svg
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── react.svg
+│   │   ├── rise.png
+│   │   ├── sun.png
+│   │   ├── weather.jpg
+│   │   └── weather.png
+│   ├── components/
+│   │   ├── error.jsx
+│   │   ├── navbar.jsx
+│   │   └── weather.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
+```
 
 ## 🧪 Test the WeatherApp
 link : https://yushna417.github.io/WeatherAppReact/
