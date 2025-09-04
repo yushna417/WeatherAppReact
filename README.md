@@ -1,6 +1,6 @@
 
 
-(React + Vite + Tailwind)
+## 🎴(React + Vite + Tailwind)
 
 ---
 
@@ -43,6 +43,8 @@ npm run dev
 * **tailwindcss** (^4.0.14) – Utility-first CSS framework
 * **@tailwindcss/vite** (^4.0.14) – Tailwind integration for Vite
 
+## 🧪 Test the WeatherApp
+link : https://yushna417.github.io/WeatherAppReact/
 
 ---
 
